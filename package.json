@@ -1,0 +1,26 @@
+{
+  "name": "doc-docs-slideshow",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "mdx-deck deck.mdx",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/langhamerm/Doc-Docs-Slideshow.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/langhamerm/Doc-Docs-Slideshow/issues"
+  },
+  "homepage": "https://github.com/langhamerm/Doc-Docs-Slideshow#readme",
+  "dependencies": {
+    "deck": "0.0.4",
+    "mdx": "^0.3.1",
+    "mdx-deck": "^2.0.6",
+    "react-counter-component": "^0.1.1"
+  }
+}
