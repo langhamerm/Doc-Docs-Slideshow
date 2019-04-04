@@ -5,7 +5,11 @@
   "main": "index.js",
   "scripts": {
     "start": "mdx-deck deck.mdx",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "react-scripts test",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "build": "mdx-deck build deck.mdx",
+    "eject": "react-scripts eject"
   },
   "repository": {
     "type": "git",
@@ -16,9 +20,10 @@
   "bugs": {
     "url": "https://github.com/langhamerm/Doc-Docs-Slideshow/issues"
   },
-  "homepage": "https://github.com/langhamerm/Doc-Docs-Slideshow#readme",
+  "homepage": "https://langhamerm.github.io/Doc-Docs-Slideshow/",
   "dependencies": {
     "deck": "0.0.4",
+    "gh-pages": "^2.0.1",
     "mdx": "^0.3.1",
     "mdx-deck": "^2.0.6",
     "react-counter-component": "^0.1.1",
